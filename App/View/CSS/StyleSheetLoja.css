@@ -1,0 +1,85 @@
+/* Reseta a página */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-image: url('../Imagem/fundo.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+body ul, li{
+    /*reseta o intem desejado*/
+    counter-reset: item;
+    /*retira a ordena��o*/
+    list-style-type: none;
+}
+
+#cabecario_elem{
+	width: 100%;
+	height:8%;
+	background-color:black;
+    position:fixed;
+    top:0px
+}
+
+#iconCabecario{
+	width: 77%;
+	height: 74%;
+	margin-top:0.3%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#iconCabecario li, #campUsuario li{
+	display: inline-block;/* Alinha os elementos */
+}
+
+#redeSociais img{
+	width:4%;
+    height:10%;
+    position:fixed;
+    top:0%;
+}
+ 
+#iconeTwite, #iconeGmail, #iconeYoutube{
+	margin-left: 6%;
+} 
+
+
+#campUsuario{
+	color: #FFF;
+}
+
+#iconeCadastro img{
+	width: 3.5%;
+	height: 6.2%;
+	position: fixed;
+	margin-left: 35%;
+	top:0.4%;
+}
+
+#formUsuario{
+	width: 34%;
+	height: 3.4%;
+	position: fixed;
+	margin-left: 39%;
+	top:2.5%;	
+}
+
+#idLogin p{
+	display: inline-block;/* Alinha os elementos */
+}
+
+#iconeCarrinhoCompras img{
+	width: 4.2%;
+	height: 7%;
+	position: fixed;
+	margin-left: 72%;
+	top:0.4%;
+}
